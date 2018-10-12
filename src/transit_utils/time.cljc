@@ -8,8 +8,7 @@
                        [cljs-time.coerce :as tc]
                        [cljs-time.format :as tf]
                        goog.date.UtcDateTime
-                       goog.date.Date]))
-  #?(:clj (:import [org.joda.time])))
+                       goog.date.Date])))
 
 (def DateTime #?(:clj org.joda.time.DateTime :cljs goog.date.UtcDateTime))
 (def LocalDate #?(:clj org.joda.time.LocalDate :cljs goog.date.Date))

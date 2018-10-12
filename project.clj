@@ -1,4 +1,4 @@
-(defproject svmbrown/transit-utils "0.1.0"
+(defproject svmbrown/transit-utils "0.1.1"
   :description "Helper transit reader/writer lib"
   :url "https://github.com/SVMBrown/transit-utils"
   :license {:name "Eclipse Public License"
